@@ -1,0 +1,41 @@
+window {
+	background-color: #080808;
+	color: white;
+	font-family: JetBrains Mono;
+	font-size: 17px;
+}
+
+#entry:selected {
+	background-color: #1f1f1f;
+	border: 0;
+}
+
+#entry {
+	padding: 10px;
+	border: 0;
+}
+
+#outer-box {
+	padding: 30px;
+	height: 300px;
+}
+
+#inner-box {
+	padding-top: 10px;
+	height: 500px;
+}
+
+#input {
+	background-color: #080808;
+	padding: 17px;
+	color: white;
+	font-size: 24px;
+}
+
+#input:selected {
+	border-color: #1f1f1f;
+}
+
+#scroll {
+	disable: true;
+}

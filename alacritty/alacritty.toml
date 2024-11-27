@@ -1,0 +1,29 @@
+[window]
+
+opacity = 0.9
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[font]
+
+normal.family = "JetBrains Mono"
+bold.family = "JetBrains Mono"
+italic.family = "JetBrains Mono"
+bold_italic.family = "JetBrains Mono"
+
+size = 15
+
+[colors.primary]
+
+background = "#0a0a0a"
+
+[keyboard]
+
+bindings = [
+	{ key = "C", mods = "Control|Shift", action = "Copy" },
+	{ key = "V", mods = "Control|Shift", action = "Paste" },
+]
